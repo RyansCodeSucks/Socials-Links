@@ -48,6 +48,6 @@ p {
     box-shadow: 0 2px 5px rgb(252, 252, 252)
 }
 
-@media (max-width: 768px) {
+@media (max-width: 80%) {
 
 }
