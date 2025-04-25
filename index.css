@@ -39,13 +39,9 @@ p {
     transition: background-color 0.3s;
 }
 
-.button1 a, .button2 a, .button3 a, .button4 a {
-    text-decoration: none;
-    color: white;
-}
-
 .button1:hover, .button2:hover, .button3:hover, .button4:hover {
     background-color: #13694d;
+    color: white;
     box-shadow: 0 2px 5px rgb(252, 252, 252)
 }
 
@@ -65,3 +61,4 @@ p {
         padding: 20px 0 50px;
     }
 }
+  
