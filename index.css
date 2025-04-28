@@ -42,7 +42,9 @@ p {
 .button1:hover, .button2:hover, .button3:hover, .button4:hover {
     background-color: #13694d;
     color: white;
-    box-shadow: 0 2px 5px rgb(252, 252, 252)
+    box-shadow: 0 2px 5px rgb(252, 252, 252);
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
 }
 
 @media (max-width: 600px) {
@@ -61,4 +63,8 @@ p {
         padding: 20px 0 50px;
     }
 }
-  
+
+/*.button-hover:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }*/
